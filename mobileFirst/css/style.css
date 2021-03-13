@@ -1,3 +1,4 @@
+@media (min-width:320px){
 :root{
     --fontTitle: 'DM Sans','sans-serif';
     --fontText: 'Inter', sans-serif;
@@ -15,22 +16,74 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{
-    font-family: var(--fontTitle);
-    font-size: 62.5%;
+header{
+    margin: 100%;
+    margin: auto;
+    text-align: center;
 }  
 .header{
     background-image: url("../assets/BG.svg");
     background-repeat: no-repeat;
     background-size: 100%;
     width: auto;
-    height: 334px;
+    height: 295px;
 }
-.header .imgLogo img{
-    height: 50px;
-    padding: 10px;
-    padding-top: 10px;
-    margin: auto;
-    margin-left: 30%;
+.header img{
+   width: 128.57px;
+   height: 24.01px;
+   margin: auto;
+   margin-top: 10%;
+}
+.header .contentHeader{
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.header .contentHeader h1{
+    width: 288px;
+    height: 78px;
+    margin-top: 12%;
+    font-family: var(--fontTitle);
+    font-style: normal;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    line-height: 26px;
+    color: var(--justWhite);
+}
+.header .contentHeader p{
+    margin-top: 9%;
+    width: 288px;
+    height: 36px;
+    font-family: var(--fontTitle);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--softOrange);
+}
+.header .botonHeader{
+    display: flex;
+    flex: none;
+    margin-top: 12%;
+    background-color: var(--offWhite);
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 12px 16px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+.header .botonHeader a{
+    color: var(--warmBlack);
+    text-decoration: none;
+    font-family: var(--fontTitle);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+}
+.header .botonHeader img{
+    width: 12px;
+    margin-top: -1%;
+}
 }
 
