@@ -234,3 +234,6 @@ main .main-inter-section-black h2{
     line-height: 18px;
     color: #808080;
 }
+main .main-third-section{
+    background-image: url(../assets/bitcoinbaby.svg);
+}
